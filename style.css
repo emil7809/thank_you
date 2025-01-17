@@ -11,7 +11,7 @@ body {
 body {
     margin: 0;
     overflow-x: hidden;
-    background-image: url('/img/texture.png');
+    background-image: url('img/texture.png');
     background-size: cover;
     background-blend-mode: overlay;
     display: grid;
@@ -118,7 +118,7 @@ header .burger_icon {
 .menu_container {
     margin: 0;
     overflow-x: hidden;
-    background-image: url('/img/texture.png');
+    background-image: url('img/texture.png');
     background-size: cover;
     background-blend-mode: overlay;
     background-color: #565342;
