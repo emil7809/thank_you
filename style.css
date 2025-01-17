@@ -1,0 +1,365 @@
+img {
+    width: 100%;
+}
+
+html,
+body {
+    height: 100%;
+    margin: 0;
+}
+
+body {
+    margin: 0;
+    overflow-x: hidden;
+    background-image: url('/img/texture.png');
+    background-size: cover;
+    background-blend-mode: overlay;
+    display: grid;
+    grid-template-rows: 1fr auto;
+    max-width: 768px;
+    margin: 0 auto;
+}
+
+h1,
+h2,
+h3,
+p,
+a,
+li,
+span {
+    color: #FCE9C9;
+}
+
+h1,
+h2,
+h3 {
+    font-size: 2.5rem;
+    font-family: "Playfair Display", serif;
+    font-weight: 400;
+    text-align: center;
+    filter: drop-shadow(1px 1px 1.5px rgba(0, 0, 0, 0.5));
+}
+
+h2 {
+    font-size: 2rem;
+    text-align: start;
+    margin-bottom: 0.5rem;
+}
+
+h3 {
+    font-size: 1.5rem;
+}
+
+p,
+li,
+span {
+    font-family: "Lato", serif;
+    font-size: 1rem;
+    padding: 0.5rem;
+}
+
+
+.lenes_font {
+    font-family: "Caveat", serif;
+    text-align: center;
+    font-weight: 100;
+    filter: drop-shadow(1px 1px 1.5px rgba(0, 0, 0, 0.5));
+    font-size: 2.5rem;
+    margin-top: -2.3rem;
+}
+
+#front,
+#kontakt {
+    background-color: #565342;
+}
+
+#om_mig {
+    background-color: #3C3022;
+}
+
+#priser {
+    background-color: #787564;
+}
+
+#akupunktur {
+    background-color: #816A55;
+}
+
+#fysioterapi {
+    background-color: #815C42;
+}
+
+#kæbeproblemer {
+    background-color: #7F6954;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 100;
+    max-width: 768px;
+    margin: 0 auto;
+}
+
+header .burger_icon_container {
+    display: flex;
+    justify-content: flex-end;
+}
+
+header .burger_icon {
+    width: 1.5rem;
+    margin: 1.5rem;
+    filter: drop-shadow(1px 1px 1.5px rgba(0, 0, 0, 0.5));
+    padding: 0.5rem;
+    backdrop-filter: blur(10px);
+}
+
+.menu_container {
+    margin: 0;
+    overflow-x: hidden;
+    background-image: url('/img/texture.png');
+    background-size: cover;
+    background-blend-mode: overlay;
+    background-color: #565342;
+    height: 100vh;
+    transition: transform 0.3s ease-in-out;
+    transform: translateX(100%);
+    overflow: hidden;
+}
+
+.menu_container.show {
+    transform: translateX(0);
+}
+
+
+header .menu_container p {
+    font-size: 1.5rem;
+    margin: 2.3rem;
+    text-align: end;
+    filter: drop-shadow(1px 1px 1.5px rgba(0, 0, 0, 0.5));
+}
+
+header .menu_container .element {
+    margin: 1rem;
+}
+
+header nav {
+    display: grid;
+    margin-bottom: 3rem;
+}
+
+header nav a {
+    text-decoration: none;
+    font-size: 1.5rem;
+    text-align: center;
+    margin: 1rem;
+    font-family: "Playfair Display", serif;
+    font-weight: 400;
+    text-align: center;
+    filter: drop-shadow(1px 1px 1.5px rgba(0, 0, 0, 0.5));
+}
+
+
+.hide {
+    display: none;
+}
+
+section {
+    width: auto;
+    margin: 0 1.5rem;
+}
+
+.logo {
+    width: 8rem;
+    filter: drop-shadow(1px 4px 2px rgba(0, 0, 0, 0.5));
+    display: grid;
+    justify-self: center;
+    margin-bottom: -2.3rem;
+}
+
+.line {
+    width: 100%;
+    height: 1px;
+    background-color: #FCE9C9;
+    opacity: 0.5;
+    filter: drop-shadow(1px 4px 2px rgba(0, 0, 0, 0.5));
+    margin: 0.5rem 0;
+}
+
+
+footer {
+
+    margin: 8rem 1.5rem 0 1.5rem;
+    display: grid;
+}
+
+footer .logo {
+    width: 5rem;
+    margin-bottom: 0.5rem;
+}
+
+footer p {
+    text-align: center;
+    font-weight: 100;
+}
+
+footer #footer_bottom {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    grid-gap: 1rem;
+    align-items: center;
+    justify-items: center;
+}
+
+footer #footer_bottom p {
+    text-align: start;
+}
+
+footer #footer_bottom img {
+    filter: drop-shadow(1px 4px 4px rgba(0, 0, 0, 0.5));
+}
+
+.hero {
+    display: grid;
+    justify-content: center;
+    margin-top: 25%;
+}
+
+.hero p {
+    text-align: center;
+    margin-top: 0rem;
+}
+
+.hero h2 {
+    text-align: center;
+}
+
+.element {
+    display: grid;
+    justify-content: center;
+    margin: 3rem 0;
+}
+
+.element img {
+    width: 3rem;
+    opacity: 0.5;
+    filter: drop-shadow(1px 4px 2px rgba(0, 0, 0, 0.5));
+}
+
+
+
+#lene_img {
+    margin: 3rem 0;
+    display: grid;
+    justify-content: center;
+
+}
+
+#lene_img img {
+    width: 15rem;
+    border-radius: 3px;
+    filter: drop-shadow(1px 4px 4px rgba(0, 0, 0, 0.5));
+    margin-top: -15rem;
+}
+
+.frame {
+    width: 15rem;
+    height: 15rem;
+    border: #FCE9C9 1px solid;
+    border-radius: 3px;
+    filter: drop-shadow(1px 4px 4px rgba(0, 0, 0, 0.5));
+    margin: -15.5rem 0 0 -0.5rem;
+}
+
+.backdrop {
+    width: 15rem;
+    height: 15rem;
+    background-color: #C2C1AF;
+    border-radius: 3px;
+    filter: drop-shadow(1px 4px 4px rgba(0, 0, 0, 0.5));
+    margin: 0 0rem -0.5rem 0.5rem;
+}
+
+.pricing-table {
+    max-width: 600px;
+    margin: 0 auto;
+
+    padding: 2rem;
+
+
+}
+
+.pricing-table h2 {
+    text-align: center;
+    margin-bottom: 1.5rem;
+}
+
+.pricing-row {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #c0b8a8;
+    /* Subtle border for separation */
+    padding: 1rem 0;
+}
+
+.pricing-row:last-child {
+    border-bottom: none;
+    /* Remove border for the last row */
+}
+
+.service {
+    width: 70%;
+    /* Adjust for space between columns */
+}
+
+.price {
+    width: 30%;
+    text-align: right;
+    font-weight: bold;
+}
+
+.service h3 {
+    margin: 0;
+    font-size: 1rem;
+    text-align: start;
+
+}
+
+.subtext {
+    font-size: 0.9rem;
+    /* Slightly lighter color for subtext */
+    font-weight: normal;
+    margin: 0.25rem 0 0;
+}
+
+section {
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 0.6s ease, transform 0.6s ease;
+}
+
+section.in-view {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+@media (min-width: 768px) {
+    header {
+        filter: drop-shadow(1px 6px 4px rgba(0, 0, 0, 0.5));
+        max-width: 800px;
+    }
+
+    header p,
+    header .burger_icon {
+        cursor: pointer;
+    }
+
+    header nav a {
+        transition: transform 0.3s ease;
+    }
+
+    header nav a:hover {
+        transform: scale(1.1);
+    }
+}
