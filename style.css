@@ -362,4 +362,8 @@ section.in-view {
     header nav a:hover {
         transform: scale(1.1);
     }
+
+    header .burger_icon {
+        backdrop-filter: none;
+    }
 }
